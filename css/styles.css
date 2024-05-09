@@ -53,13 +53,20 @@ body {
 }
 
 .main-div {
-    display: block;
-    flex-wrap: wrap;
-
-}
-#flex{
     display: flex;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
+    justify-content: center;
+    height: inherit;
+    gap: 30px;
+    width: 600px;
+}
+
+#flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+
 }
 
 #description {
@@ -71,23 +78,6 @@ body {
 
 .button1 {
     margin-top: 80px;
-    margin-left: 90px;
-    height: 100px;
-    width: 600px;
-    background-color: black;
-    border: none;
-    border-radius: 10px;
-    box-shadow: white 0 0 10px -2px;
-    color: aqua;
-    font-size: 40px;
-    font-weight: 600;
-    font-family: Arial, Helvetica, sans-serif;
-
-}
-
-.small-button {
-    margin-top: 80px;
-    margin-left: 90px;
     height: 100px;
     width: 600px;
     background-color: black;
@@ -125,22 +115,49 @@ body {
     box-shadow: white 0 0 16px 1px;
     color: orange;
 }
-.toggle{
+
+.small-button {
+    height: 100px;
+    width: 500px;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: white 0 0 10px -2px;
+    color: cornflowerblue;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.small-button:hover {
+    box-shadow: white 0 0 13px 1px;
+    color: rgb(39, 43, 150);
+}
+
+.toggle {
+    margin-top: 0;
     display: none;
-    margin-left: 90px;
-    margin-top: 15px;
     box-shadow: white 0 0 9px -1px;
 }
+
 .word-container {
-    margin-bottom: 20px;
     margin-top: 15px;
     height: 300px;
     width: 600px;
     border: none;
     box-shadow: white 0 0 9px -1px;
-    background-color: aquamarine;
+    background-color: black;
 }
 
-.words{
+.word-container2 {
+    margin-top: 15px;
+    height: 300px;
+    width: 500px;
+    border: none;
+    box-shadow: white 0 0 9px -1px;
+    background-color: black;
+}
+
+.words {
     color: white;
 }
