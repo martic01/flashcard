@@ -1,0 +1,146 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+li {
+    list-style: none;
+    padding: 3px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    background-color: black;
+
+
+}
+
+.projectNameDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 200px;
+    width: 1000px;
+    margin: 40px auto;
+    border: none;
+    border-radius: 20px;
+    background-color: black;
+    box-shadow: white 0 0 10px -2px;
+
+}
+
+.projectNameDiv:hover {
+    box-shadow: white 0 0 15px 1px;
+
+}
+
+#project-name {
+    font-size: 60px;
+    font-weight: 800;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: lavender;
+}
+
+.main-div {
+    display: block;
+    flex-wrap: wrap;
+
+}
+#flex{
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+#description {
+    font-size: 25px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.button1 {
+    margin-top: 80px;
+    margin-left: 90px;
+    height: 100px;
+    width: 600px;
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+    box-shadow: white 0 0 10px -2px;
+    color: aqua;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.small-button {
+    margin-top: 80px;
+    margin-left: 90px;
+    height: 100px;
+    width: 600px;
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+    box-shadow: white 0 0 10px -2px;
+    color: aqua;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.button1:hover {
+    box-shadow: white 0 0 13px 1px;
+    color: orange;
+}
+
+.button1:active {
+    box-shadow: white 0 0 16px 1px;
+    color: aqua;
+}
+
+#button2 {
+    color: orange;
+}
+
+#button2:hover {
+    box-shadow: white 0 0 13px 1px;
+    color: aqua;
+}
+
+#button2:active {
+    box-shadow: white 0 0 16px 1px;
+    color: orange;
+}
+.toggle{
+    display: none;
+    margin-left: 90px;
+    margin-top: 15px;
+    box-shadow: white 0 0 9px -1px;
+}
+.word-container {
+    margin-bottom: 20px;
+    margin-top: 15px;
+    height: 300px;
+    width: 600px;
+    border: none;
+    box-shadow: white 0 0 9px -1px;
+    background-color: aquamarine;
+}
+
+.words{
+    color: white;
+}
