@@ -9,7 +9,7 @@ $(document).ready(function () {
         $(".toggle").eq(index).find("ul").toggle();
 
     });
-    
+
 });
 
 
