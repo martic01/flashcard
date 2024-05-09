@@ -1,11 +1,17 @@
 $(document).ready(function () {
+
     $("button").click(function () {
+
         let index = $("button").index(this);
+        
         $(".toggle").hide();
         $(".toggle").eq(index).show();
         $(".toggle").eq(index).find("ul").toggle();
+
     });
+    
 });
+
 
 
 //   $(document).ready(function () {
