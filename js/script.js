@@ -10,6 +10,10 @@ $(document).ready(function () {
 
     });
 
+    $("button").click(function() {
+        $(".words2").addClass(".animate");
+      });
+
 });
 
 
